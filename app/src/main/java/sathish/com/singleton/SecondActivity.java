@@ -11,7 +11,7 @@ public class SecondActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Singleton.getInstance().setMtest("Android");
+        Singleton.getInstance().setMtest("Android Studio");
         Toast.makeText(getApplicationContext(), Singleton.getInstance().getString()+" "+Singleton.getInstance().getMtest()
                 , Toast.LENGTH_LONG).show();
     }
